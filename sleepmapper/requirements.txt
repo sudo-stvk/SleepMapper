@@ -1,0 +1,13 @@
+torch
+torchaudio
+librosa
+numpy
+pandas
+scikit-learn
+matplotlib
+tqdm
+onnx
+onnxruntime
+wfdb
+transformers
+pyyaml
