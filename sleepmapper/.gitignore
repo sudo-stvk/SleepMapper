@@ -20,7 +20,7 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-
+context.md
 # Model files (generated locally, not committed)
 *.pt
 *.pth
