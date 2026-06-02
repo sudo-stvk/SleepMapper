@@ -20,21 +20,22 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-context.md
 # Model files (generated locally, not committed)
 *.pt
 *.pth
 *.onnx
 
 # Data and Outputs
-sleepmapper/data/raw/*
-sleepmapper/data/processed/*
-sleepmapper/data/splits/*
-!sleepmapper/data/**/.gitkeep
+data/raw/*
+data/processed/*
+data/splits/*
+data/cache/*
+!data/**/.gitkeep
 
-sleepmapper/outputs/checkpoints/*
-sleepmapper/outputs/logs/*
-!sleepmapper/outputs/**/.gitkeep
+outputs/checkpoints/*
+outputs/logs/*
+outputs/plots/*
+!outputs/**/.gitkeep
 
 # IDEs
 .vscode/
@@ -43,3 +44,4 @@ sleepmapper/outputs/logs/*
 # OS
 .DS_Store
 Thumbs.db
+

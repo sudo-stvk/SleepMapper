@@ -9,8 +9,11 @@ clip_duration: 30 # seconds
 
 # Training Parameters
 batch_size: 32
-learning_rate: 1e-4
+learning_rate: 3e-4
 num_epochs: 50
 
 # Inference Parameters
 classification_threshold: 0.35
+
+hidden_size: 256
+dropout: 0.3
